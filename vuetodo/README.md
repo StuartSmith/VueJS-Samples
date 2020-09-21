@@ -1,6 +1,6 @@
 # Vue Todo
 
-This is an example application using Vue JS as a todo application. The application is quite simple using JSON Place Holder as a Mock backend to create and remove todos from a list of todo items. 
+This is an example application using Vue JS as a todo application. The application is quite simple, using Json Place Holder as a Mock backend to create and remove todos from a list of todo items. 
 
 ### Known issue:   
 Since this is a Mock API, creating more than one todo will cause an error where multiple todos with the same ID will be added to the list of todos. 
