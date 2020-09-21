@@ -6,7 +6,7 @@ This is an example application using Vue JS as a todo application. The applicati
 Since this is a Mock API, creating more than one todo will cause an error where multiple todos with the same ID will be added to the list of todos. 
 
 ### JSON Place Holder
-JSON place holder is a great way for one to get's one feet web calling external web services with out having to develop them. These web service are mock web services where no new true data is added to them, they just act like a remote web service. 
+JSON place holder is a great way for one to get's one feet web calling external web services with out having to develop them. These web service are mock web services where no new true data is added to them through there web APIs. 
 
 The documentation for JSON Place holder Mock API can be found in the following folder...
 
