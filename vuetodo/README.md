@@ -14,7 +14,7 @@ Since this is a Mock API, creating more than one todo, will cause an error where
        **<Root>**
 
 ### JSON Place Holder
-JSON place holder is a great way for one to get's one feet web calling external web services with out having to develop it. These web service are mock web services where no new true data is added to them through their web APIs. 
+JSON place holder is a great way for one to get's one feet web calling external web services. These web service are mock web services where no new true data is added to them through their web APIs. 
 
 The documentation for JSON Place holder Mock API can be found in the following folder...
 
