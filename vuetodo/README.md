@@ -3,7 +3,7 @@
 This is an example application using Vue JS as a todo application. The application is quite simple, using Json Place Holder as a Mock backend to create and remove todos from a list of todo items. 
 
 ### Known issue:   
-Since this is a Mock API, creating more than one todo will cause an error where multiple todos with the same ID will be generated and added to the list of todos elements. 
+Since this is a Mock API, creating more than one todo, will cause an error where multiple todos with the same ID will be generated and added to the list of todos elements. 
 
 **[Vue warn]: Duplicate keys detected: '201'. This may cause an update error.**
 
@@ -14,7 +14,7 @@ Since this is a Mock API, creating more than one todo will cause an error where 
        **<Root>**
 
 ### JSON Place Holder
-JSON place holder is a great way for one to get's one feet web calling external web services with out having to develop them. These web service are mock web services where no new true data is added to them through there web APIs. 
+JSON place holder is a great way for one to get's one feet web calling external web services with out having to develop it. These web service are mock web services where no new true data is added to them through their web APIs. 
 
 The documentation for JSON Place holder Mock API can be found in the following folder...
 
