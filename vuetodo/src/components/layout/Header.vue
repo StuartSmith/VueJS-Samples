@@ -107,7 +107,7 @@ export default {
     letter-spacing: 1.25px;
 }
 #sidebarMenu {
-    height: 100%;
+    height: auto;
     position: fixed;
     left: 0;
     width: 150px;
@@ -122,8 +122,6 @@ export default {
     padding:0;   
     border-top: 2px solid slategray;    
 }
-
-
 
 .sidebarMenuInner li{
     list-style: none;
@@ -223,9 +221,8 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
     text-align: center;   
   }
 
-  
-
-  
+html,body { height: 100%; margin: 0px; padding: 0px; }
+#full { height: 100% }
 
 
 

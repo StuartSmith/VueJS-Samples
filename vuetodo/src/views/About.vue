@@ -2,7 +2,7 @@
   <div class="about">
     <div class="leftBorder"></div>
   <div class="RightContent">
-    <h1>Vue Todo</h1>
+    <h1>About Vue Todo</h1>
 <p>This is an example application using Vue JS as a To Do application. The application is quite simple, using Json Place Holder as a Mock backend to create and remove todos from a list of todo items.</p>
 
 <h2>Known issue:</h2>
@@ -20,7 +20,9 @@
 <p>The documentation for JSON Place holder Mock API can be found in the following folder...</p>
 
 <p><a href="https://jsonplaceholder.typicode.com/guide.html">https://jsonplaceholder.typicode.com/guide.html</a></p>
-<p>Steps to create the Todo application </p>
+
+<h3>Steps to create the Todo application </h3>
+
 <h4>1. Create the Vue Application by running the following command line:</h4>
 <p>     vue create vuetodo</p>
 
