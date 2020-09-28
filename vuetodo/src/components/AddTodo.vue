@@ -1,6 +1,6 @@
 <template>
     <div >
-      <form @submit.prevent="addTodo" >
+      <form @submit.prevent="addTodo" class="addtodo" >
         <input type="text" v-model="title" name="title" placeholder="Add Todo...">
         <!--<input type="submit" value="Submit" class="btn">-->        
         <b-button class="submit " type="submit" variant="btn btn-outline-success">Submit</b-button>
@@ -67,6 +67,11 @@ input {
   box-shadow: none;
 }
 
+.addtodo{
+  padding-top: 2px;
+  padding-bottom: 2px;  
+
+}
 
   ::-webkit-input-placeholder {
        color:silver;

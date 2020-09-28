@@ -30,9 +30,10 @@ export default {
   .todo-item {
     display: flex;
     flex-direction:row;
-    background: #fffafa;
+    background: white;
     padding: 10px;
     border-bottom: 1px #ccc dotted;
+    text-align: left;
   }
   .check {   
     min-width: 2em;
