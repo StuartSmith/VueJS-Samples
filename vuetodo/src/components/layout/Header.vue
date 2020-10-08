@@ -6,7 +6,7 @@
         <HamburgerButton ref="HamburgerButton" v-model ="viewModel.showMenu"  v-on:changedHamburgerButton="ShowHamburgerMenu"/>
         </div> 
            <div>
-             <h1> Vue Todo</h1>
+             <h1> Vue To Do</h1>
            </div>
       </span>      
        <div class="sidenav" v-bind:class="{slidesidenav: viewModel.showMenu}" >          
