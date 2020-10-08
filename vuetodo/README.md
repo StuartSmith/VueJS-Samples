@@ -1,6 +1,6 @@
 # Vue To Do
 
-This is an example application using Vue JS as a to do list editor. The application is quite simple, using Json Place Holder as a Mock backend to create and remove to dos from a list of to do items. 
+This is an example application using Vue.js as a to do list editor. The application is quite simple, using Json Place Holder as a Mock backend to create and remove to dos from a list of to do items. 
 
 
 ![Alt text](https://github.com/StuartSmith/VueJS-Samples/blob/master/vuetodo/GitHubImage/2020-10-07%2020-54-33.gif?raw=true "VueJS To Do Application")
