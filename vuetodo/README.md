@@ -1,12 +1,12 @@
-# Vue Todo
+# Vue To Do
 
-This is an example application using Vue JS as a To Do list editor application. The application is quite simple, using Json Place Holder as a Mock backend to create and remove todos from a list of todo items. 
+This is an example application using Vue JS as a To Do list editor application. The application is quite simple, using Json Place Holder as a Mock backend to create and remove to dos from a list of todo items. 
 
 
 ![Alt text](https://github.com/StuartSmith/VueJS-Samples/blob/master/vuetodo/GitHubImage/2020-10-07%2020-54-33.gif?raw=true "VueJS To Do Application")
 
 ### Known issue:   
-Since this is a Mock API, creating more than one todo, will cause an error where multiple todos with the same ID will be generated and added to the list of todos elements. 
+Since this is a Mock API, creating more than one to do, will cause an error where multiple to dos with the same ID will be generated and added to the list of to do elements. 
 
 **[Vue warn]: Duplicate keys detected: '201'. This may cause an update error.**
 
@@ -24,7 +24,7 @@ The documentation for JSON Place holder Mock API can be found in the following f
     https://jsonplaceholder.typicode.com/guide.html
 
 
-## Steps to create the Todo application
+## Steps to create the to do application
 
 
     1.Create the Vue Application by running the following command line:
