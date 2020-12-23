@@ -30,21 +30,15 @@ The documentation for JSON Place holder Mock API can be found in the following f
     1.Create the Vue Application by running the following command line:
          vue create vuetodo
 
-    2. Add the vie Router...
-        There are two options for the view router.
-            Do not use History mode with the view Router
-                Is to create the vue router with history mode turned off ie use the option of N, This will put a hash in the routes so vue knows that a router is enabled.
-                for example the route will look like so...
-                    vuetodo/dist/index.html**#**/
-                Since this demo application will not be run from a web server, we will use the hash option for history mode to be disabled. This does not look as good as having no slash but with out a web server this is the best option 
-            
-            Use history mode
-                
-                This looks better to the end user than having history mode enabled the issue. There is no hash in the URL
-                    vuetodo/dist/index.html/ 
-                
-                But for this to functon properly, must run vue from a web server
-
+    2. Add the vue Router...
+        There are two options for the view router, one is to use history and the other is to not. The issue found is that history only works if running Vue.js from a web server and not from files locally stored on disk. Since project runs using files stored locally on disk History mode must be disabled.  
+        
+        The URL when history mode is not enabled looks as follows:         
+              vuetodo/dist/index.html**#**/         
+         It is not as clean as when history mode is enabled        
+              vuetodo/dist/index.html/       
+       
+        To create the vue router with history mode turned off, use the option of N, This will put a hash in the routes so vue knows that a router is enabled. Because this application is not ran from a web server we must not have history mode turned on.  
 
     3. When building for production remove the /slash in hrefs
         By default Vue JS assumes that it is going to be at the root project of a URL, which might not be the case. The Vue js application might be in a sub folder of the root project. 
@@ -55,10 +49,11 @@ The documentation for JSON Place holder Mock API can be found in the following f
                     publicPath: './'
                 }
 
-    4. Use Axios for calls to back end web service calls
+    4. This application uses Axios for Rest Calls back to the Json Place holder web site. 
+    To install Axios run the following command 
         npm install axios
 
-    5. Style Vue JS application with twitter Boot strap. 
+    5. This application uses twitter boot strap for styling. There are many vue boot strap npm packages to use but for this project, I settled on the npm package bootstrap-vue. This project only touched the surface on what is possible with twitter bootstrap styling. 
         
         npm install bootstrap-vue bootstrap
 
