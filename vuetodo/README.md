@@ -60,7 +60,7 @@ The documentation for JSON Place holder Mock API can be found in the following f
     To install Axios run the following command 
         * npm install axios
 
-    5. This application uses twitter boot strap for styling. There are many vue boot strap npm packages to use but for this project,
+    5. Twitter-bootstrap is used for styling of this application. There are many great vue boot strap npm packages to use but for this project
     npm package bootstrap-vue was settled on. This project only touched the surface on what is possible with twitter bootstrap styling. 
         
     To install bootstrap-vue run the following command     
