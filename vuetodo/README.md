@@ -32,9 +32,10 @@ The documentation for JSON Place holder Mock API can be found in the following f
 
     2. Add the vue Router...
         History Mode and the view router:
-        History mode when enabled  removes the need of hashes from the URL, which looks more professional then when the hashes are included.
-        The issue found, is that history mode only works if running Vue.js from a web server and not from files locally stored on disk. 
-        Since this project runs using files stored locally on disk History mode must be disabled.  
+        History mode when enabled  removes the need of hashes from the URL, which looks more professional then when the hashes
+        are included. The issue found, is that history mode only works if running Vue.js from a web server 
+        and not from files locally stored on disk.  Since this project runs using files stored locally on disk
+        History mode must be disabled.  
         
         The URL when history mode is not enabled looks as follows:         
               vuetodo/dist/index.html**#**/         
