@@ -31,8 +31,9 @@ The documentation for JSON Place holder Mock API can be found in the following f
          vue create vuetodo
 
     2. Add the vue Router...
-        There are two options for the view router, one is to use history and the other is to not. 
-        The issue found is that history only works if running Vue.js from a web server and not from files locally stored on disk. 
+        History Mode and the view router:
+        History mode when enabled  removes the need of hashes from the URL, which looks more professional then when the hashes are included.
+        The issue found, is that history mode only works if running Vue.js from a web server and not from files locally stored on disk. 
         Since this project runs using files stored locally on disk History mode must be disabled.  
         
         The URL when history mode is not enabled looks as follows:         
@@ -40,8 +41,8 @@ The documentation for JSON Place holder Mock API can be found in the following f
          It is not as clean as when history mode is enabled        
               vuetodo/dist/index.html/       
        
-        To create the vue router with history mode turned off, use the option of N, 
-        This will put a hash in the routes so vue knows that a router is enabled. 
+        To create the vue router with history mode turned off, use the option of N. 
+         
 
     3. When building for production remove the /slash in hrefs
         By default Vue JS assumes that it is going to be at the root project of a URL, which might not be the case. 
@@ -58,13 +59,12 @@ The documentation for JSON Place holder Mock API can be found in the following f
     To install Axios run the following command 
         * npm install axios
 
-    5. This application uses twitter boot strap for styling. There are many vue boot strap npm packages to use but for this project, I settled on the npm package bootstrap-vue. This project only touched the surface on what is possible with twitter bootstrap styling. 
+    5. This application uses twitter boot strap for styling. There are many vue boot strap npm packages to use but for this project,  npm package bootstrap-vue was settled on.       This project only touched the surface on what is possible with twitter bootstrap styling. 
         
+    To install bootstrap-vue run the following command     
         npm install bootstrap-vue bootstrap
 
-       To style the Application add the following to the Main.js
-
-       In the Main JS file add the following: 
+       To style the Application add the following to the Main.js:
 
               import Vue from 'vue'
               import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
