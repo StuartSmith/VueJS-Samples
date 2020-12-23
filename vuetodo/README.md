@@ -31,17 +31,21 @@ The documentation for JSON Place holder Mock API can be found in the following f
          vue create vuetodo
 
     2. Add the vue Router...
-        There are two options for the view router, one is to use history and the other is to not. The issue found is that history only works if running Vue.js from a web server and not from files locally stored on disk. Since this project runs using files stored locally on disk History mode must be disabled.  
+        There are two options for the view router, one is to use history and the other is to not. 
+        The issue found is that history only works if running Vue.js from a web server and not from files locally stored on disk. 
+        Since this project runs using files stored locally on disk History mode must be disabled.  
         
         The URL when history mode is not enabled looks as follows:         
               vuetodo/dist/index.html**#**/         
          It is not as clean as when history mode is enabled        
               vuetodo/dist/index.html/       
        
-        To create the vue router with history mode turned off, use the option of N, This will put a hash in the routes so vue knows that a router is enabled. 
+        To create the vue router with history mode turned off, use the option of N, 
+        This will put a hash in the routes so vue knows that a router is enabled. 
 
     3. When building for production remove the /slash in hrefs
-        By default Vue JS assumes that it is going to be at the root project of a URL, which might not be the case. The Vue js application might be in a sub folder of the root project. 
+        By default Vue JS assumes that it is going to be at the root project of a URL, which might not be the case. 
+        The Vue.Js application might be in a sub folder of the root project. 
 
         Add the vue.config.js next to the package.json file with the following content:
 
