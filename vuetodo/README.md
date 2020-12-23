@@ -50,27 +50,28 @@ The documentation for JSON Place holder Mock API can be found in the following f
                 }
 
     4. This application uses Axios for Rest Calls back to the Json Place holder web site. 
+    
     To install Axios run the following command 
-        npm install axios
+        * npm install axios
 
     5. This application uses twitter boot strap for styling. There are many vue boot strap npm packages to use but for this project, I settled on the npm package bootstrap-vue. This project only touched the surface on what is possible with twitter bootstrap styling. 
         
         npm install bootstrap-vue bootstrap
 
-To style the Application add the following to the Main.js
+       To style the Application add the following to the Main.js
 
-    In the Main JS file add the following: 
+       In the Main JS file add the following: 
 
-        import Vue from 'vue'
-        import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+              import Vue from 'vue'
+              import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
-        // Install BootstrapVue
-        Vue.use(BootstrapVue)
-        // Optionally install the BootstrapVue icon components plugin
-        Vue.use(IconsPlugin)
+              // Install BootstrapVue
+              Vue.use(BootstrapVue)
+              // Optionally install the BootstrapVue icon components plugin
+              Vue.use(IconsPlugin)
 
-        import 'bootstrap/dist/css/bootstrap.css'
-        import 'bootstrap-vue/dist/bootstrap-vue.css'
+              import 'bootstrap/dist/css/bootstrap.css'
+              import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 ## Project setup
 ```
