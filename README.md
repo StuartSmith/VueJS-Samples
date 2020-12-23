@@ -7,7 +7,7 @@ This is an example application using Vue JS as a To Do list editor. The applicat
 
 [Vue Js To Do Application](https://github.com/StuartSmith/VueJS-Samples/tree/master/vuetodo)
 
-The Demo goes throught the following steps
+The Demo goes through the following steps
    * Goes to home page
    * Goes to About page
    * Adds an Item from the todo list 
